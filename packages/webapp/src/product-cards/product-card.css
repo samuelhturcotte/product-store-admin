@@ -1,0 +1,83 @@
+.card-container .ant-card {
+    min-height: 350px;
+    max-height: 350px;
+    min-width: 300px;
+    background-color: white;
+    text-align: center;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    margin: 15px;
+
+}
+
+.card-container:hover .ant-card:hover {
+    cursor: pointer;
+}
+
+.card-container img {
+    padding: 20px;
+    margin: 0px auto;
+    max-height: 170px;
+    max-width: 300px;
+    object-fit: contain;
+
+}
+
+
+.card-container .ant-card-body {
+    margin: 0;
+}
+
+
+.card-container .ant-card-meta {
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+
+.card-container .ant-card-meta-description {
+    color: #E92C63;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+
+.card-container .ant-card-meta-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: black;
+    max-width: 250px;
+
+}
+
+.card-container .ant-card-actions {
+    border-top: 0.5px solid #E8E8E8;
+   
+    position:  absolute;
+    bottom: 5px;
+    left: 20px;
+    right: 20px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 315px) {
+
+    .product-card {
+        max-height: 250px;
+        max-width: 250px;
+
+    }
+
+    .product-picture {
+        padding: 20px;
+        max-height: 180px;
+        object-fit: contain;
+    }
+
+
+}

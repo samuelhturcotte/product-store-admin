@@ -1,0 +1,38 @@
+body .ant-pro-form-login-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+
+
+.ant-pro-form-login-page-notice {
+    display: none !important;
+}
+
+#__lpform_email_icon, #__lpform_password_icon {
+    display: none;
+}
+
+.ant-pro-form-login-page button {
+    background-color: #FBD304;
+    border: none;
+    color: #2E2702;
+    font-weight: 500;
+}
+
+.ant-pro-form-login-page:hover button:hover {
+    background-color: white;
+    border: 1px solid #2ED3BD;
+    color: #2ED3BD;
+    font-weight: 500;
+}
+
+
+@media only screen and (max-width: 300px) {
+
+    .ant-pro-form-login-page-container .ant-pro-form-login-page-main {
+        max-width: 250px;
+    }
+    
+
+}

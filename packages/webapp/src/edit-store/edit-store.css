@@ -1,0 +1,136 @@
+.description-container .picture-container {
+    border: none;
+    margin: 0 30px; 
+}
+
+img {
+    min-width: 200px;
+    min-height: 200px;
+}
+
+
+.description-picture img {
+    padding: 20px;
+    object-fit: contain;
+    max-width: 250px;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;  
+}
+
+
+.section-container {
+    padding: 0 30px;
+    width: 100%;
+}
+
+.section-container .ant-form-item label {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+.bold-title {
+    font-weight: bold;
+}
+
+
+.save-button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+    max-width: 503px;
+}
+.section-container .save-button  {
+   
+    border: 1px solid black;
+    max-height: 40px;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+.section-container:hover .save-button:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+
+
+@media only screen and (max-width: 414px) {
+    .save-button-container {
+        max-width: 100%;
+        justify-content: center;
+    }
+    .picture-container {
+        margin: 5px auto;
+
+    }
+
+    .description-picture {
+        max-height: 300px;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+}
+
+
+
+@media only screen and (min-width: 415px) and (max-width: 540px) {
+
+    .save-button-container {
+        max-width: 100%;
+        justify-content: center;
+    }
+
+    .picture-container {
+        margin: 0 auto;
+        max-width: 400px;
+    }
+
+    .description-picture {
+        max-height: 400px;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+
+    .header-text {
+        margin-left: 12px;
+    }
+
+}
+
+@media only screen and (min-width: 541px) and (max-width: 1280px) {
+    .picture-container .ant-image .ant-image-img {
+
+        min-width: 200px;
+        max-height: 200px;
+    }
+
+    .picture-container {
+        margin: 0 30px 20px 30px;
+
+    }
+
+    .save-button-container {
+        max-width: 503px;
+    }
+
+    .description-container {
+        margin-top: 130px;
+    }
+
+    .description-list {
+        margin-right: 10px;
+    }
+
+
+    .header-text {
+        margin-left: 12px;
+    }
+}

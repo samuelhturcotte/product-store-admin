@@ -1,0 +1,20 @@
+{
+  "name": "rns",
+  "private": true,
+  "scripts": {
+    "web:start": "cd packages/webapp && yarn start",
+    "web:build": "cd packages/webapp && yarn build",
+    "web:serve": "cd packages/webapp && yarn serve",
+    "server:start": "cd packages/server && yarn start:dev",
+    "server:start:prod": "cd packages/server && yarn build && yarn start:prod",
+    "dto:compile": "cd packages/dtos && yarn compile"
+  },
+  "devDependencies": {
+    "lerna": "^5.1.4"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.2.1",
+    "bootstrap": "^5.2.2",
+    "react-bootstrap": "^2.5.0"
+  }
+}

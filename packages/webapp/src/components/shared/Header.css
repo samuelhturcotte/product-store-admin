@@ -1,0 +1,143 @@
+.header-container {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+
+  .button-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      margin-top: 10px;
+      min-width: 260px;
+
+  }
+
+
+.header-container .ant-page-header {
+    background-color: #2ED3BD;
+}
+
+.header-container .ant-page-header-heading-title {
+    color: white;
+    font-size: 2rem;
+}
+
+.title-link {
+    color: white;
+}
+
+.title-link:hover {
+    color: white;
+    cursor: pointer;
+}
+
+
+.header-container .add-button Button {
+    color: #2E2702;
+    background-color: #FBD304;
+    border: none;
+    font-weight: 500;
+    border-radius: 5px;
+    width: 70px;
+    font-size: 0.9rem;
+
+}
+
+.header-container:hover .add-button:hover Button:hover {
+    background-color: #2ED3BD;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    
+}
+
+
+
+.header-container .ant-space-item .logout-button {
+    background-color: #2ED3BD;
+    border: none;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    width: 90px;
+    font-size: 0.9rem;
+}
+
+
+.header-container:hover  .ant-space-item:hover .logout-button:hover {
+    background-color: #2ED3BD;
+    border: 1px solid white;
+    cursor: pointer;
+    color: white;
+}
+
+
+@media only screen and (max-width: 414px) {
+
+    .header-container .ant-page-header-heading{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        background-color: #2ED3BD;
+        width: 100%;
+        z-index: 1000;
+            
+    }
+
+    .header-container .ant-page-header-heading-title {
+        color: white;
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+
+
+    .button-container {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        margin-top: 10px;
+        min-width: 260px;
+        
+    }
+
+    .header-container .add-button Button {
+        color: #2E2702;
+        background-color: #FBD304;
+        border: none;
+        font-weight: 500;
+        border-radius: 5px;
+        width: 90px;
+        font-size: 0.9rem;
+    
+    }
+
+    .header-container .ant-page-header-heading-title {
+        color: white;
+        font-size: 2.1rem;
+        margin: 0 auto;
+    }
+
+
+.header-container .ant-space-item .logout-button {
+    color: #2E2702;
+    background-color: #FBD304;
+    border: none;
+    font-weight: 500;
+    border-radius: 5px;
+    width: 90px;
+    font-size: 0.9rem;
+        
+}
+
+    
+
+
+
+}
